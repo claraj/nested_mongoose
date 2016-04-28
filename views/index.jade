@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= bird.name
+
+  p Eggs
+  p=bird.eggs
+  p Nest materials document:
+  p=bird.nest_data
+  p Nest materials
+  p=bird.nest_data.materials
+  p Nest location
+  p=bird.nest_data.location
